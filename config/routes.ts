@@ -16,7 +16,8 @@ export default [
     // 权限控制可以去看 and design pro 的官方文档
     access: 'canAdmin',
     routes: [
-      {name: '接口管理', icon: 'table', path: '/admin/interface_info', component: './Admin/InterfaceInfo'}
+      {name: '接口管理', icon: 'table', path: '/admin/interface_info', component: './Admin/InterfaceInfo'},
+      {name: '接口分析', icon: 'analysis', path: '/admin/interface_analysis', component: './Admin/InterfaceAnalysis'}
     ],
   },
   // {path: '/', redirect: '/welcome'},
